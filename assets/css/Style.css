@@ -1,0 +1,419 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.Title-Text{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+.SubTitle-Text{
+    font-size: 16px;
+    font-weight:550;
+    text-align: center;
+}
+
+.NavBar{
+    height: 100px;
+    background-color: #2C3E50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    color: white;   
+}
+.NavBar-2{
+    height: 100px;
+    background-color: #2C3E50;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 70px;
+    color: white;   
+}
+.Logo{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+.Nav-Sections{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+}
+.Hero{
+    background-color: #1ABC9C;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    height: calc(100vh - 100px);
+}
+.Profile-img{
+    display: inline-block;
+}
+.My-img{
+    width: 250px;
+    height: 250px;
+    background-color: #2C3E50;
+    border-radius: 50%;
+    position: relative;
+}
+.My-img img{
+    width:310px;
+    height: 310px;
+    object-fit: cover;
+    position: absolute;
+    top:-50px;
+    left: -22px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius:50px;
+
+}
+.Star{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.Star-border{
+    width: 100px;
+    border: 2px solid;
+    margin: 0px 15px;
+}
+.Portfolio{
+    color: #2C3E50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+}
+.Card-Section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap ;
+    padding: 50px 100px;
+}
+.Card{
+    width: 300px;
+    height: 200px;
+    border: 1px none #1ABC9C;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Images{
+    width: 150px;
+    height: 150px;
+}
+.Card-color-1{
+    background-color: #BA4C63;
+}
+.Card-color-2{
+    background-color: #1FA4B6;
+}
+.Card-color-3{
+    background-color: #130F0F;
+}
+.Card-color-4{
+    background-color: #186EA2;
+}
+.Card-color-5{
+    background-color: #1037B5;
+}
+.Card-color-6{
+    background-color: #CCB2A3;
+}
+.About{
+    background-color: #1ABC9C;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+.Text-About{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    gap: 20px;
+}
+.TextBox{
+    padding: 50px;
+    font-size: 18Px;
+    gap: 20px;
+}
+.Download-Button{
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+.ContactMe{
+    color: #2C3E50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+.ContactMe-form{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+    margin: 50px;
+}
+.Labels-form{
+    font-size: 24px;
+    color: #70767C;
+}
+.Input-form{
+    width: 600px;
+    border-bottom: 2px solid #DBE0E4;
+    border-top: 2px none #DBE0E4;
+    border-right: 2px none #DBE0E4;
+    border-left: 2px none #DBE0E4;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.Textarea-form{
+    width: 600px;
+    border-bottom: 2px solid #DBE0E4;
+    border-top: 2px none #DBE0E4;
+    border-right: 2px none #DBE0E4;
+    border-left: 2px none #DBE0E4;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.Send-button{
+    width: 150px;
+    height: 80px;
+    background-color: #6AD3BF;
+    border: 1px none;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}
+.Footer-section{
+    background-color: #2C3E50;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.Location{
+    width: 300px;
+    border: 1px none white;
+}
+.Footer-label{
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.AroundTheWeb{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.Footer-icons{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Footer-icons a{
+    color: white;
+}
+.Icons-group{
+    width: 300px;
+    border: 1px none white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.My-CV{
+    width: 300px;
+    border: 1px none white;
+}
+.My-CV a{
+    color: #1ABC9C;
+}
+.bottom-nav{
+    background-color: #1A252F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+@media(max-width:992px) and (min-width:768px)
+{
+    .NavBar{
+        display: none;
+    }
+    .NavBar-2{
+        display: flex;
+    }
+ 
+}
+@media(max-width:768px) and (min-width:576px)
+{
+    .Title-Text{
+        font-size: 36px;
+    }
+    .SubTitle-Text{
+        font-size: 14px;
+    }
+    .NavBar{
+        display: none;
+    }
+    .NavBar-2{
+        display: flex;
+    }
+    .About{
+        padding: 20px;
+    }
+    .Text-About{
+        padding: 10px;
+    }
+    .TextBox{
+        padding: 20px;
+    }
+    .Input-form{
+        width: 400px;
+    }
+    .Textarea-form{
+        width: 400px;
+    }
+    .Footer-section{
+        gap: 70px;
+    }
+}
+@media (max-width:576px) and (min-width:300px){
+    
+    .Title-Text{
+        font-size: 30px;
+    }.NavBar{
+        display: none;
+    }
+    .NavBar-2{
+        display: flex;
+        padding: 20px 20px;
+    }
+    .Logo{
+        font-size: 18px;
+    }
+    .My-img{
+        width: 200px;
+        height: 200px;
+    }
+    .My-img img{
+        width:250px;
+        height: 250px;
+    }
+    .TextBox{
+      font-size: 14px;
+    }
+    .Card-Section{
+        padding: 20px;
+    }
+    .Card{
+        width: 200px;
+        height: 125px;
+    
+    }
+    .Images{
+        width: 75px;
+        height: 75px;
+    }
+    .About{
+        padding: 20px;
+    }
+    .Text-About{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .TextBox{
+        padding: 10px;
+    }
+    .Download-Button{
+        font size: 12px;
+    }
+    .Labels-form{
+        font-size: 18px;
+    }
+    .Input-form{
+        width: 200px;
+    }
+    .Textarea-form{
+        width: 200px;
+    }
+    .Send-button{
+        width: 100px;
+        height: 60px;
+        font-size: 15px;
+    }
+    .Footer-section{
+        gap: 70px;
+        text-align: center;
+        padding: 20px;
+    }
+    .Icons-group{
+        width: 240px;
+        gap: 5px;
+    }
+    .Footer-icons{
+        width: 40px;
+        height: 40px;
+    }
+    
+}
